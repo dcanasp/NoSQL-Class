@@ -1,0 +1,482 @@
+[
+ {
+  "user_id": "U-0001",
+  "name": "Valentina Rojas",
+  "localidad": "Chapinero",
+  "lat": 4.65289,
+  "lon": -74.05883,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0002",
+  "name": "Andrés Gómez",
+  "localidad": "Suba",
+  "lat": 4.73744,
+  "lon": -74.08951,
+  "referred_by": "U-0001"
+ },
+ {
+  "user_id": "U-0003",
+  "name": "Camila Herrera",
+  "localidad": "Teusaquillo",
+  "lat": 4.64132,
+  "lon": -74.08561,
+  "referred_by": "U-0002"
+ },
+ {
+  "user_id": "U-0004",
+  "name": "Santiago Martínez",
+  "localidad": "Usaquén",
+  "lat": 4.68848,
+  "lon": -74.03745,
+  "referred_by": "U-0003"
+ },
+ {
+  "user_id": "U-0005",
+  "name": "Diego Cárdenas",
+  "localidad": "Engativá",
+  "lat": 4.70866,
+  "lon": -74.10509,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0006",
+  "name": "Daniela Moreno",
+  "localidad": "Chapinero",
+  "lat": 4.65476,
+  "lon": -74.06874,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0007",
+  "name": "Daniel Ramírez",
+  "localidad": "Suba",
+  "lat": 4.74327,
+  "lon": -74.09127,
+  "referred_by": "U-0006"
+ },
+ {
+  "user_id": "U-0008",
+  "name": "Paula Moreno",
+  "localidad": "Engativá",
+  "lat": 4.70508,
+  "lon": -74.11075,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0009",
+  "name": "Daniel Pérez",
+  "localidad": "Usaquén",
+  "lat": 4.69772,
+  "lon": -74.02777,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0010",
+  "name": "Natalia Vargas",
+  "localidad": "Suba",
+  "lat": 4.73592,
+  "lon": -74.0846,
+  "referred_by": "U-0009"
+ },
+ {
+  "user_id": "U-0011",
+  "name": "Julián Torres",
+  "localidad": "Engativá",
+  "lat": 4.71142,
+  "lon": -74.11434,
+  "referred_by": "U-0007"
+ },
+ {
+  "user_id": "U-0012",
+  "name": "Sebastián Rincón",
+  "localidad": "Chapinero",
+  "lat": 4.65461,
+  "lon": -74.06093,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0013",
+  "name": "Catalina Cárdenas",
+  "localidad": "Usaquén",
+  "lat": 4.70163,
+  "lon": -74.03166,
+  "referred_by": "U-0008"
+ },
+ {
+  "user_id": "U-0014",
+  "name": "Natalia González",
+  "localidad": "Chapinero",
+  "lat": 4.64935,
+  "lon": -74.05563,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0015",
+  "name": "Mariana López",
+  "localidad": "Teusaquillo",
+  "lat": 4.62745,
+  "lon": -74.09025,
+  "referred_by": "U-0007"
+ },
+ {
+  "user_id": "U-0016",
+  "name": "Juan Martínez",
+  "localidad": "Usaquén",
+  "lat": 4.69653,
+  "lon": -74.03151,
+  "referred_by": "U-0013"
+ },
+ {
+  "user_id": "U-0017",
+  "name": "Laura Díaz",
+  "localidad": "Kennedy",
+  "lat": 4.63059,
+  "lon": -74.15373,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0018",
+  "name": "Felipe Suárez",
+  "localidad": "Teusaquillo",
+  "lat": 4.63326,
+  "lon": -74.07574,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0019",
+  "name": "Nicolás Sánchez",
+  "localidad": "Kennedy",
+  "lat": 4.63012,
+  "lon": -74.1563,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0020",
+  "name": "Nicolás García",
+  "localidad": "Chapinero",
+  "lat": 4.6522,
+  "lon": -74.06137,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0021",
+  "name": "Daniela Ramírez",
+  "localidad": "Suba",
+  "lat": 4.73982,
+  "lon": -74.09021,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0022",
+  "name": "Daniel Cárdenas",
+  "localidad": "Chapinero",
+  "lat": 4.65405,
+  "lon": -74.05485,
+  "referred_by": "U-0020"
+ },
+ {
+  "user_id": "U-0023",
+  "name": "Felipe Suárez",
+  "localidad": "Kennedy",
+  "lat": 4.62405,
+  "lon": -74.1504,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0024",
+  "name": "Sebastián Díaz",
+  "localidad": "Santa Fe",
+  "lat": 4.60877,
+  "lon": -74.07461,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0025",
+  "name": "Diego Martínez",
+  "localidad": "Usaquén",
+  "lat": 4.69775,
+  "lon": -74.03303,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0026",
+  "name": "Mateo Ramírez",
+  "localidad": "Chapinero",
+  "lat": 4.64102,
+  "lon": -74.06966,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0027",
+  "name": "Alejandro López",
+  "localidad": "Chapinero",
+  "lat": 4.65133,
+  "lon": -74.06906,
+  "referred_by": "U-0006"
+ },
+ {
+  "user_id": "U-0028",
+  "name": "Mateo Rincón",
+  "localidad": "Teusaquillo",
+  "lat": 4.63046,
+  "lon": -74.08323,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0029",
+  "name": "Mariana Moreno",
+  "localidad": "Chapinero",
+  "lat": 4.64757,
+  "lon": -74.06349,
+  "referred_by": "U-0026"
+ },
+ {
+  "user_id": "U-0030",
+  "name": "Laura Rodríguez",
+  "localidad": "Teusaquillo",
+  "lat": 4.63347,
+  "lon": -74.07933,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0031",
+  "name": "Catalina Ortiz",
+  "localidad": "Teusaquillo",
+  "lat": 4.63143,
+  "lon": -74.07721,
+  "referred_by": "U-0011"
+ },
+ {
+  "user_id": "U-0032",
+  "name": "Daniel Ortiz",
+  "localidad": "Chapinero",
+  "lat": 4.64294,
+  "lon": -74.0626,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0033",
+  "name": "Catalina García",
+  "localidad": "Engativá",
+  "lat": 4.7127,
+  "lon": -74.11643,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0034",
+  "name": "Juliana Sánchez",
+  "localidad": "La Candelaria",
+  "lat": 4.60382,
+  "lon": -74.06742,
+  "referred_by": "U-0020"
+ },
+ {
+  "user_id": "U-0035",
+  "name": "Felipe Ortiz",
+  "localidad": "Engativá",
+  "lat": 4.71344,
+  "lon": -74.11537,
+  "referred_by": "U-0017"
+ },
+ {
+  "user_id": "U-0036",
+  "name": "Juliana González",
+  "localidad": "Usaquén",
+  "lat": 4.69815,
+  "lon": -74.02731,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0037",
+  "name": "María Vargas",
+  "localidad": "Chapinero",
+  "lat": 4.64348,
+  "lon": -74.06906,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0038",
+  "name": "Paula Rodríguez",
+  "localidad": "Chapinero",
+  "lat": 4.64935,
+  "lon": -74.06195,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0039",
+  "name": "Natalia Jiménez",
+  "localidad": "La Candelaria",
+  "lat": 4.59028,
+  "lon": -74.07803,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0040",
+  "name": "Isabela López",
+  "localidad": "Chapinero",
+  "lat": 4.65424,
+  "lon": -74.06606,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0041",
+  "name": "Sebastián Vargas",
+  "localidad": "Teusaquillo",
+  "lat": 4.63534,
+  "lon": -74.08264,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0042",
+  "name": "Daniel García",
+  "localidad": "Chapinero",
+  "lat": 4.64633,
+  "lon": -74.05925,
+  "referred_by": "U-0025"
+ },
+ {
+  "user_id": "U-0043",
+  "name": "Nicolás Torres",
+  "localidad": "Teusaquillo",
+  "lat": 4.64198,
+  "lon": -74.07506,
+  "referred_by": "U-0018"
+ },
+ {
+  "user_id": "U-0044",
+  "name": "Paula Ortiz",
+  "localidad": "Chapinero",
+  "lat": 4.64558,
+  "lon": -74.0689,
+  "referred_by": "U-0023"
+ },
+ {
+  "user_id": "U-0045",
+  "name": "Nicolás García",
+  "localidad": "Engativá",
+  "lat": 4.71026,
+  "lon": -74.10821,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0046",
+  "name": "Felipe Martínez",
+  "localidad": "Kennedy",
+  "lat": 4.63087,
+  "lon": -74.14309,
+  "referred_by": "U-0013"
+ },
+ {
+  "user_id": "U-0047",
+  "name": "Alejandro Sánchez",
+  "localidad": "Santa Fe",
+  "lat": 4.61388,
+  "lon": -74.07551,
+  "referred_by": "U-0018"
+ },
+ {
+  "user_id": "U-0048",
+  "name": "Daniel Castro",
+  "localidad": "Kennedy",
+  "lat": 4.63565,
+  "lon": -74.14991,
+  "referred_by": "U-0008"
+ },
+ {
+  "user_id": "U-0049",
+  "name": "Paula Ortiz",
+  "localidad": "Engativá",
+  "lat": 4.69971,
+  "lon": -74.11266,
+  "referred_by": "U-0021"
+ },
+ {
+  "user_id": "U-0050",
+  "name": "Carlos Cárdenas",
+  "localidad": "Suba",
+  "lat": 4.73884,
+  "lon": -74.09185,
+  "referred_by": "U-0049"
+ },
+ {
+  "user_id": "U-0051",
+  "name": "María Díaz",
+  "localidad": "Chapinero",
+  "lat": 4.64591,
+  "lon": -74.06116,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0052",
+  "name": "Sebastián Ramírez",
+  "localidad": "Usaquén",
+  "lat": 4.70193,
+  "lon": -74.02344,
+  "referred_by": "U-0027"
+ },
+ {
+  "user_id": "U-0053",
+  "name": "Isabela González",
+  "localidad": "Kennedy",
+  "lat": 4.62766,
+  "lon": -74.14904,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0054",
+  "name": "Paula Castro",
+  "localidad": "Santa Fe",
+  "lat": 4.60579,
+  "lon": -74.0754,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0055",
+  "name": "Natalia Torres",
+  "localidad": "Chapinero",
+  "lat": 4.65179,
+  "lon": -74.06469,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0056",
+  "name": "Natalia Sánchez",
+  "localidad": "Chapinero",
+  "lat": 4.65122,
+  "lon": -74.06388,
+  "referred_by": "U-0035"
+ },
+ {
+  "user_id": "U-0057",
+  "name": "Natalia Ramírez",
+  "localidad": "Engativá",
+  "lat": 4.70636,
+  "lon": -74.11312,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0058",
+  "name": "Felipe Moreno",
+  "localidad": "Chapinero",
+  "lat": 4.64309,
+  "lon": -74.06475,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0059",
+  "name": "Juan Martínez",
+  "localidad": "Suba",
+  "lat": 4.73839,
+  "lon": -74.0763,
+  "referred_by": null
+ },
+ {
+  "user_id": "U-0060",
+  "name": "María Martínez",
+  "localidad": "Santa Fe",
+  "lat": 4.60618,
+  "lon": -74.06871,
+  "referred_by": null
+ }
+]

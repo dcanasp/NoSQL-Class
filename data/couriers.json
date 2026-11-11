@@ -1,0 +1,32 @@
+[
+ {
+  "courier_id": "C-01",
+  "name": "Jhon Fredy Ramírez",
+  "vehicle": "motorcycle"
+ },
+ {
+  "courier_id": "C-02",
+  "name": "Yeimy Castro",
+  "vehicle": "e-bike"
+ },
+ {
+  "courier_id": "C-03",
+  "name": "Brayan Torres",
+  "vehicle": "motorcycle"
+ },
+ {
+  "courier_id": "C-04",
+  "name": "Leidy Moreno",
+  "vehicle": "bicycle"
+ },
+ {
+  "courier_id": "C-05",
+  "name": "Wilson Patiño",
+  "vehicle": "motorcycle"
+ },
+ {
+  "courier_id": "C-06",
+  "name": "Marcela Ospina",
+  "vehicle": "e-bike"
+ }
+]

@@ -1,0 +1,48 @@
+# Local stack (and class-day plan B). No volumes: restarting a database wipes it,
+# and the loader refills it within ~20 s.
+x-secrets: &secrets
+  CLASS_CODE: ${CLASS_CODE:-domi}
+  NEO4J_PASSWORD: ${NEO4J_PASSWORD:-domi-neo4j}
+
+services:
+  gateway:
+    build: ./gateway
+    environment: *secrets
+    ports: ["8000:8000"]
+
+  loader:
+    build: ./loader
+    environment: *secrets
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.4
+
+  mongo:
+    image: mongo:7.0
+
+  scylla:
+    image: scylladb/scylla:6.2
+    command: --smp 1 --memory 1G --overprovisioned 1 --developer-mode 1
+
+  neo4j:
+    image: neo4j:5.26-community
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-domi-neo4j}
+      NEO4J_server_memory_heap_max__size: 512m
+    ports: ["7474:7474", "7687:7687"]   # Neo4j Browser for the instructor
+
+  influx:
+    image: influxdb:3-core
+    command: influxdb3 serve --node-id node0 --object-store memory --without-auth
+
+  elastic:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    ports: ["6333:6333"]                # dashboard: http://localhost:6333/dashboard

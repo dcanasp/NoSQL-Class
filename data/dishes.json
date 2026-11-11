@@ -1,0 +1,580 @@
+[
+ {
+  "dish_id": "D-0001",
+  "restaurant_id": "R-001",
+  "name": "Ajiaco santafereño",
+  "description": "Hot, hearty chicken and potato soup with guascas. The comfort dish Bogotanos crave when the sky turns gray and the drizzle starts.",
+  "price_cop": 32000,
+  "tags": [
+   "soup",
+   "colombian",
+   "chicken"
+  ]
+ },
+ {
+  "dish_id": "D-0002",
+  "restaurant_id": "R-001",
+  "name": "Chocolate santafereño con queso",
+  "description": "Hot chocolate with fresh cheese melting in the cup. Cozy comfort on chilly, drizzly evenings.",
+  "price_cop": 9000,
+  "tags": [
+   "drink",
+   "chocolate",
+   "colombian"
+  ]
+ },
+ {
+  "dish_id": "D-0003",
+  "restaurant_id": "R-001",
+  "name": "Tamal tolimense",
+  "description": "Corn dough stuffed with pork, chicken, egg and carrots, steamed in banana leaves. Comes from Tolima.",
+  "price_cop": 18000,
+  "tags": [
+   "colombian",
+   "pork",
+   "corn"
+  ]
+ },
+ {
+  "dish_id": "D-0004",
+  "restaurant_id": "R-001",
+  "name": "Sobrebarriga en salsa",
+  "description": "Slow-braised flank steak in tomato and onion sauce, with rice, fried plantain and potatoes.",
+  "price_cop": 34000,
+  "tags": [
+   "colombian",
+   "beef"
+  ]
+ },
+ {
+  "dish_id": "D-0005",
+  "restaurant_id": "R-001",
+  "name": "Postre de natas",
+  "description": "Sweet milk-skin dessert with raisins, an old Bogotá family recipe.",
+  "price_cop": 8000,
+  "tags": [
+   "dessert",
+   "colombian"
+  ]
+ },
+ {
+  "dish_id": "D-0006",
+  "restaurant_id": "R-002",
+  "name": "Arepa de choclo",
+  "description": "Sweet corn arepa cooked on the griddle, folded over melting white cheese.",
+  "price_cop": 12000,
+  "tags": [
+   "corn",
+   "cheese",
+   "street food"
+  ]
+ },
+ {
+  "dish_id": "D-0007",
+  "restaurant_id": "R-002",
+  "name": "Empanadas",
+  "description": "Crispy fried corn turnovers filled with potato and beef, with ají on the side.",
+  "price_cop": 3500,
+  "tags": [
+   "fried",
+   "beef",
+   "street food"
+  ]
+ },
+ {
+  "dish_id": "D-0008",
+  "restaurant_id": "R-002",
+  "name": "Arepa rellena de pollo",
+  "description": "Grilled arepa stuffed with shredded chicken, avocado and cheese.",
+  "price_cop": 15000,
+  "tags": [
+   "corn",
+   "chicken",
+   "street food"
+  ]
+ },
+ {
+  "dish_id": "D-0009",
+  "restaurant_id": "R-002",
+  "name": "Patacón con hogao",
+  "description": "Smashed fried green plantain topped with hogao, the tomato and onion sauce.",
+  "price_cop": 14000,
+  "tags": [
+   "plantain",
+   "vegetarian",
+   "street food"
+  ]
+ },
+ {
+  "dish_id": "D-0010",
+  "restaurant_id": "R-002",
+  "name": "Limonada de coco",
+  "description": "Coconut and lime blended smooth, sweet and tangy.",
+  "price_cop": 9000,
+  "tags": [
+   "drink",
+   "coconut"
+  ]
+ },
+ {
+  "dish_id": "D-0011",
+  "restaurant_id": "R-003",
+  "name": "Salmon roll",
+  "description": "Eight pieces of rice and nori rolled around fresh salmon, cream cheese and avocado.",
+  "price_cop": 36000,
+  "tags": [
+   "sushi",
+   "fish",
+   "japanese"
+  ]
+ },
+ {
+  "dish_id": "D-0012",
+  "restaurant_id": "R-003",
+  "name": "Ramen",
+  "description": "Pork bone broth with wheat noodles, chashu pork, soft egg and scallions.",
+  "price_cop": 38000,
+  "tags": [
+   "noodles",
+   "pork",
+   "japanese"
+  ]
+ },
+ {
+  "dish_id": "D-0013",
+  "restaurant_id": "R-003",
+  "name": "Gyoza",
+  "description": "Pan-fried pork and cabbage dumplings with a soy and rice vinegar dip.",
+  "price_cop": 22000,
+  "tags": [
+   "dumplings",
+   "pork",
+   "japanese"
+  ]
+ },
+ {
+  "dish_id": "D-0014",
+  "restaurant_id": "R-003",
+  "name": "Edamame",
+  "description": "Steamed green soybeans with sea salt.",
+  "price_cop": 14000,
+  "tags": [
+   "vegetarian",
+   "japanese",
+   "snack"
+  ]
+ },
+ {
+  "dish_id": "D-0015",
+  "restaurant_id": "R-003",
+  "name": "Mochi de maracuyá",
+  "description": "Soft rice cake filled with passion fruit cream.",
+  "price_cop": 12000,
+  "tags": [
+   "dessert",
+   "japanese"
+  ]
+ },
+ {
+  "dish_id": "D-0016",
+  "restaurant_id": "R-004",
+  "name": "Fritanga para dos",
+  "description": "Grilled chorizo, morcilla, chicharrón, ribs, arepas, potatoes and plantain for sharing.",
+  "price_cop": 58000,
+  "tags": [
+   "grill",
+   "pork",
+   "sharing"
+  ]
+ },
+ {
+  "dish_id": "D-0017",
+  "restaurant_id": "R-004",
+  "name": "Chicharrón",
+  "description": "Crunchy fried pork belly with lemon and arepa.",
+  "price_cop": 22000,
+  "tags": [
+   "fried",
+   "pork"
+  ]
+ },
+ {
+  "dish_id": "D-0018",
+  "restaurant_id": "R-004",
+  "name": "Chorizo santarrosano",
+  "description": "Grilled pork sausage from Santa Rosa de Cabal with arepa and lemon.",
+  "price_cop": 15000,
+  "tags": [
+   "grill",
+   "pork"
+  ]
+ },
+ {
+  "dish_id": "D-0019",
+  "restaurant_id": "R-004",
+  "name": "Morcilla",
+  "description": "Blood sausage with rice and peas, grilled until crisp.",
+  "price_cop": 12000,
+  "tags": [
+   "grill",
+   "pork"
+  ]
+ },
+ {
+  "dish_id": "D-0020",
+  "restaurant_id": "R-004",
+  "name": "Papa criolla frita",
+  "description": "Small yellow Andean potatoes fried whole, crisp outside and creamy inside.",
+  "price_cop": 9000,
+  "tags": [
+   "fried",
+   "vegetarian",
+   "potato"
+  ]
+ },
+ {
+  "dish_id": "D-0021",
+  "restaurant_id": "R-005",
+  "name": "Smash burger",
+  "description": "Two smashed beef patties, cheddar, pickles and house sauce in a potato bun.",
+  "price_cop": 29000,
+  "tags": [
+   "burger",
+   "beef"
+  ]
+ },
+ {
+  "dish_id": "D-0022",
+  "restaurant_id": "R-005",
+  "name": "Salchipapa",
+  "description": "Fries topped with sliced sausage, pink sauce, mustard and crushed potato chips.",
+  "price_cop": 18000,
+  "tags": [
+   "fried",
+   "sausage",
+   "street food"
+  ]
+ },
+ {
+  "dish_id": "D-0023",
+  "restaurant_id": "R-005",
+  "name": "Chicken burger",
+  "description": "Crispy fried chicken thigh with coleslaw and honey mustard.",
+  "price_cop": 27000,
+  "tags": [
+   "burger",
+   "chicken",
+   "fried"
+  ]
+ },
+ {
+  "dish_id": "D-0024",
+  "restaurant_id": "R-005",
+  "name": "Veggie burger",
+  "description": "Black bean and quinoa patty with avocado, tomato and lettuce.",
+  "price_cop": 26000,
+  "tags": [
+   "burger",
+   "vegetarian"
+  ]
+ },
+ {
+  "dish_id": "D-0025",
+  "restaurant_id": "R-005",
+  "name": "Milkshake de arequipe",
+  "description": "Vanilla ice cream blended with arequipe, Colombian dulce de leche.",
+  "price_cop": 14000,
+  "tags": [
+   "drink",
+   "dessert"
+  ]
+ },
+ {
+  "dish_id": "D-0026",
+  "restaurant_id": "R-006",
+  "name": "Margherita",
+  "description": "Thin crust pizza with tomato, mozzarella and fresh basil, baked in a wood oven.",
+  "price_cop": 34000,
+  "tags": [
+   "pizza",
+   "vegetarian",
+   "italian"
+  ]
+ },
+ {
+  "dish_id": "D-0027",
+  "restaurant_id": "R-006",
+  "name": "Lasagna",
+  "description": "Layers of pasta, beef ragù, béchamel and parmesan, baked until bubbling.",
+  "price_cop": 36000,
+  "tags": [
+   "pasta",
+   "beef",
+   "italian"
+  ]
+ },
+ {
+  "dish_id": "D-0028",
+  "restaurant_id": "R-006",
+  "name": "Pizza hawaiana",
+  "description": "Pizza with ham and pineapple, the Bogotá favorite nobody admits to.",
+  "price_cop": 38000,
+  "tags": [
+   "pizza",
+   "italian"
+  ]
+ },
+ {
+  "dish_id": "D-0029",
+  "restaurant_id": "R-006",
+  "name": "Tiramisú",
+  "description": "Coffee-soaked ladyfingers with mascarpone cream and cocoa.",
+  "price_cop": 15000,
+  "tags": [
+   "dessert",
+   "italian",
+   "coffee"
+  ]
+ },
+ {
+  "dish_id": "D-0030",
+  "restaurant_id": "R-006",
+  "name": "Burrata salad",
+  "description": "Creamy burrata with cherry tomatoes, arugula and pesto.",
+  "price_cop": 32000,
+  "tags": [
+   "salad",
+   "vegetarian",
+   "italian"
+  ]
+ },
+ {
+  "dish_id": "D-0031",
+  "restaurant_id": "R-007",
+  "name": "Changua",
+  "description": "Steaming milk and egg broth with scallions and toasted bread. Cozy comfort on chilly, drizzly Bogotá mornings.",
+  "price_cop": 16000,
+  "tags": [
+   "soup",
+   "breakfast",
+   "egg"
+  ]
+ },
+ {
+  "dish_id": "D-0032",
+  "restaurant_id": "R-007",
+  "name": "Almojábana",
+  "description": "Soft cheese bread made with corn flour and cuajada, baked fresh every morning.",
+  "price_cop": 4000,
+  "tags": [
+   "bread",
+   "cheese",
+   "breakfast"
+  ]
+ },
+ {
+  "dish_id": "D-0033",
+  "restaurant_id": "R-007",
+  "name": "Huevos pericos",
+  "description": "Scrambled eggs with tomato and scallion, with arepa and coffee.",
+  "price_cop": 13000,
+  "tags": [
+   "egg",
+   "breakfast"
+  ]
+ },
+ {
+  "dish_id": "D-0034",
+  "restaurant_id": "R-007",
+  "name": "Calentado",
+  "description": "Yesterday's rice and beans fried together, with egg, arepa and chorizo.",
+  "price_cop": 19000,
+  "tags": [
+   "breakfast",
+   "beans",
+   "egg"
+  ]
+ },
+ {
+  "dish_id": "D-0035",
+  "restaurant_id": "R-007",
+  "name": "Café con leche",
+  "description": "Colombian coffee with steamed milk, the classic for breakfast.",
+  "price_cop": 6000,
+  "tags": [
+   "drink",
+   "coffee"
+  ]
+ },
+ {
+  "dish_id": "D-0036",
+  "restaurant_id": "R-008",
+  "name": "Tamal tolimense",
+  "description": "Corn dough with pork, chicken, egg and peas, steamed in banana leaves, Doña Rosa's way.",
+  "price_cop": 17000,
+  "tags": [
+   "colombian",
+   "pork",
+   "corn"
+  ]
+ },
+ {
+  "dish_id": "D-0037",
+  "restaurant_id": "R-008",
+  "name": "Caldo de costilla",
+  "description": "Hot beef rib broth with potatoes and cilantro. Hearty comfort on chilly, drizzly evenings, and the cure after long parties.",
+  "price_cop": 15000,
+  "tags": [
+   "soup",
+   "beef",
+   "breakfast"
+  ]
+ },
+ {
+  "dish_id": "D-0038",
+  "restaurant_id": "R-008",
+  "name": "Lechona",
+  "description": "Whole roasted pork stuffed with rice and peas, crisp skin on top.",
+  "price_cop": 25000,
+  "tags": [
+   "pork",
+   "colombian"
+  ]
+ },
+ {
+  "dish_id": "D-0039",
+  "restaurant_id": "R-008",
+  "name": "Bandeja paisa",
+  "description": "Beans, rice, ground beef, chicharrón, chorizo, fried egg, plantain, arepa and avocado on one plate.",
+  "price_cop": 32000,
+  "tags": [
+   "colombian",
+   "beef",
+   "pork"
+  ]
+ },
+ {
+  "dish_id": "D-0040",
+  "restaurant_id": "R-008",
+  "name": "Jugo de lulo",
+  "description": "Fresh lulo juice, tart and green, blended with water or milk.",
+  "price_cop": 7000,
+  "tags": [
+   "drink",
+   "fruit"
+  ]
+ },
+ {
+  "dish_id": "D-0041",
+  "restaurant_id": "R-009",
+  "name": "Pollo asado",
+  "description": "Whole chicken roasted over coals, with potatoes, arepas and guacamole.",
+  "price_cop": 42000,
+  "tags": [
+   "chicken",
+   "rotisserie"
+  ]
+ },
+ {
+  "dish_id": "D-0042",
+  "restaurant_id": "R-009",
+  "name": "Arroz con pollo",
+  "description": "Yellow rice cooked with chicken, peas and carrots, with fries on the side.",
+  "price_cop": 19000,
+  "tags": [
+   "chicken",
+   "rice"
+  ]
+ },
+ {
+  "dish_id": "D-0043",
+  "restaurant_id": "R-009",
+  "name": "Medio pollo",
+  "description": "Half rotisserie chicken with fries and salad.",
+  "price_cop": 24000,
+  "tags": [
+   "chicken",
+   "rotisserie"
+  ]
+ },
+ {
+  "dish_id": "D-0044",
+  "restaurant_id": "R-009",
+  "name": "Papas a la francesa",
+  "description": "Hand-cut fries with garlic sauce.",
+  "price_cop": 7000,
+  "tags": [
+   "fried",
+   "potato"
+  ]
+ },
+ {
+  "dish_id": "D-0045",
+  "restaurant_id": "R-009",
+  "name": "Maduro con queso",
+  "description": "Sweet ripe plantain baked with melted cheese and bocadillo.",
+  "price_cop": 9000,
+  "tags": [
+   "plantain",
+   "cheese"
+  ]
+ },
+ {
+  "dish_id": "D-0046",
+  "restaurant_id": "R-010",
+  "name": "Quinoa bowl",
+  "description": "Quinoa with roasted vegetables, chickpeas, avocado and tahini dressing.",
+  "price_cop": 27000,
+  "tags": [
+   "vegetarian",
+   "bowl",
+   "healthy"
+  ]
+ },
+ {
+  "dish_id": "D-0047",
+  "restaurant_id": "R-010",
+  "name": "Green salad",
+  "description": "Lettuce, spinach, cucumber, apple and seeds with lemon vinaigrette. Light and fresh.",
+  "price_cop": 22000,
+  "tags": [
+   "vegetarian",
+   "salad",
+   "healthy"
+  ]
+ },
+ {
+  "dish_id": "D-0048",
+  "restaurant_id": "R-010",
+  "name": "Crema de ahuyama",
+  "description": "Smooth pumpkin soup with ginger and toasted seeds.",
+  "price_cop": 18000,
+  "tags": [
+   "soup",
+   "vegetarian"
+  ]
+ },
+ {
+  "dish_id": "D-0049",
+  "restaurant_id": "R-010",
+  "name": "Falafel wrap",
+  "description": "Chickpea falafel, hummus, pickled onion and greens in a whole-wheat wrap.",
+  "price_cop": 24000,
+  "tags": [
+   "vegetarian",
+   "chickpea"
+  ]
+ },
+ {
+  "dish_id": "D-0050",
+  "restaurant_id": "R-010",
+  "name": "Açaí bowl",
+  "description": "Açaí blended with banana, topped with granola, strawberries and honey.",
+  "price_cop": 21000,
+  "tags": [
+   "vegetarian",
+   "fruit",
+   "healthy"
+  ]
+ }
+]

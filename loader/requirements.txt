@@ -1,0 +1,6 @@
+redis==5.2.1
+pymongo==4.10.1
+scylla-driver==3.28.2
+neo4j==5.27.0
+httpx==0.28.1
+fastembed==0.4.2

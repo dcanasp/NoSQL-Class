@@ -1,0 +1,92 @@
+[
+ {
+  "restaurant_id": "R-001",
+  "name": "El Ajiaco de la Abuela",
+  "cuisine": "Colombian",
+  "localidad": "La Candelaria",
+  "lat": 4.59812,
+  "lon": -74.0768,
+  "rating": 4.8
+ },
+ {
+  "restaurant_id": "R-002",
+  "name": "Arepas La 85",
+  "cuisine": "Street food",
+  "localidad": "Chapinero",
+  "lat": 4.6462,
+  "lon": -74.06421,
+  "rating": 4.5
+ },
+ {
+  "restaurant_id": "R-003",
+  "name": "Koi Usaquén",
+  "cuisine": "Japanese",
+  "localidad": "Usaquén",
+  "lat": 4.69689,
+  "lon": -74.02959,
+  "rating": 4.6
+ },
+ {
+  "restaurant_id": "R-004",
+  "name": "Fritanga El Rolo",
+  "cuisine": "Grill",
+  "localidad": "Kennedy",
+  "lat": 4.63314,
+  "lon": -74.1533,
+  "rating": 4.3
+ },
+ {
+  "restaurant_id": "R-005",
+  "name": "Smash 93",
+  "cuisine": "Burgers",
+  "localidad": "Chapinero",
+  "lat": 4.64738,
+  "lon": -74.06576,
+  "rating": 4.4
+ },
+ {
+  "restaurant_id": "R-006",
+  "name": "Pizzería La Macarena",
+  "cuisine": "Italian",
+  "localidad": "Santa Fe",
+  "lat": 4.60775,
+  "lon": -74.06996,
+  "rating": 4.7
+ },
+ {
+  "restaurant_id": "R-007",
+  "name": "Changua & Café",
+  "cuisine": "Breakfast",
+  "localidad": "Teusaquillo",
+  "lat": 4.63021,
+  "lon": -74.08541,
+  "rating": 4.6
+ },
+ {
+  "restaurant_id": "R-008",
+  "name": "Tamales Doña Rosa",
+  "cuisine": "Colombian",
+  "localidad": "Suba",
+  "lat": 4.7412,
+  "lon": -74.08364,
+  "rating": 4.4
+ },
+ {
+  "restaurant_id": "R-009",
+  "name": "Pollo Brasa la 80",
+  "cuisine": "Rotisserie",
+  "localidad": "Engativá",
+  "lat": 4.70476,
+  "lon": -74.10929,
+  "rating": 4.2
+ },
+ {
+  "restaurant_id": "R-010",
+  "name": "Verde Bowl",
+  "cuisine": "Vegetarian",
+  "localidad": "Chapinero",
+  "lat": 4.65048,
+  "lon": -74.06595,
+  "rating": 4.5
+ }
+]
