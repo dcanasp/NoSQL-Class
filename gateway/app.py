@@ -36,7 +36,7 @@ http = httpx.Client(timeout=TIMEOUT)
 
 
 def blocked(what):
-    raise HTTPException(403, f"🚫 {what} is disabled in this lab")
+    raise HTTPException(403, f"{what} is disabled in this lab")
 
 
 def to_json(x):
@@ -99,6 +99,13 @@ def mongo_db():
 
 def run_mongo(q):
     import json5
+    # optional trailing .explain("verbosity"), as in the shell
+    explain = None
+    e = re.fullmatch(r"(.*\))\s*\.explain\(\s*(?:['\"](\w+)['\"])?\s*\)\s*;?", q.strip(), re.S)
+    if e:
+        q, explain = e.group(1), e.group(2) or "executionStats"
+        if explain not in {"queryPlanner", "executionStats", "allPlansExecution"}:
+            raise HTTPException(400, 'Use .explain(), .explain("queryPlanner") or .explain("executionStats")')
     m = re.fullmatch(r"(?:db\.)?(\w+)\.(\w+)\((.*)\)\s*;?", q, re.S)
     if not m:
         raise HTTPException(400, 'Write it like: orders.find({_id: "O-000042"})')
@@ -115,6 +122,17 @@ def run_mongo(q):
         raise HTTPException(400, f"Could not read the arguments: {e}")
     c = mongo_db()[coll]
     mt = method.lower()
+    if explain:
+        if mt in ("find", "findone"):
+            cmd = {"find": coll, "filter": a[0] if a else {}}
+            if len(a) > 1:
+                cmd["projection"] = a[1]
+        elif mt == "aggregate":
+            cmd = {"aggregate": coll, "pipeline": a[0] if a else [], "cursor": {}}
+        else:
+            raise HTTPException(400, "explain works with find and aggregate.")
+        cmd["maxTimeMS"] = TIMEOUT * 1000
+        return mongo_db().command({"explain": cmd, "verbosity": explain})
     if mt == "find":
         return list(c.find(*a).max_time_ms(TIMEOUT * 1000).limit(MAX_ROWS))
     if mt == "findone":

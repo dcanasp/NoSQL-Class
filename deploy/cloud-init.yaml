@@ -1,0 +1,44 @@
+#cloud-config
+# Paste into "Custom data" when creating an Ubuntu 24.04 VM in the Azure portal.
+# Installs Docker and a boot service that runs the stack in /opt/domi on every VM start.
+# You still copy the project in once (see deploy/README.md).
+
+package_update: true
+packages:
+  - docker.io
+  - docker-compose-v2
+
+write_files:
+  # Kernel settings Elasticsearch and Scylla want.
+  - path: /etc/sysctl.d/99-domi.conf
+    content: |
+      vm.max_map_count=262144
+      fs.aio-max-nr=1048576
+
+  - path: /etc/systemd/system/domi.service
+    content: |
+      [Unit]
+      Description=Domi NoSQL lab stack
+      Requires=docker.service
+      After=docker.service network-online.target
+      ConditionPathExists=/opt/domi/docker-compose.yml
+
+      [Service]
+      Type=oneshot
+      RemainAfterExit=yes
+      WorkingDirectory=/opt/domi
+      ExecStart=/usr/bin/docker compose up -d --build
+      ExecStop=/usr/bin/docker compose down
+      TimeoutStartSec=900
+
+      [Install]
+      WantedBy=multi-user.target
+
+runcmd:
+  - sysctl --system
+  - mkdir -p /opt/domi
+  - chown 1000:1000 /opt/domi          # the admin user created by Azure
+  - usermod -aG docker "$(id -nu 1000)"
+  - systemctl enable --now docker
+  - systemctl daemon-reload
+  - systemctl enable domi.service

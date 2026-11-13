@@ -8,7 +8,7 @@ services:
   gateway:
     build: ./gateway
     environment: *secrets
-    ports: ["8000:8000"]
+    ports: ["80:8000"]                  # port 80 so campus proxies allow it
 
   loader:
     build: ./loader
@@ -46,3 +46,32 @@ services:
   qdrant:
     image: qdrant/qdrant:v1.12.5
     ports: ["6333:6333"]                # dashboard: http://localhost:6333/dashboard
+
+  # ---- Visualizers (instructor only; on the VM reach them through the SSH tunnel) ----
+
+  redis-ui:
+    image: redis/redisinsight:3.8.0
+    environment:
+      RI_REDIS_HOST: redis
+      RI_REDIS_PORT: "6379"
+      RI_REDIS_ALIAS: domi
+      RI_ACCEPT_TERMS_AND_CONDITIONS: "true"
+    ports: ["5540:5540"]
+
+  mongo-ui:
+    image: mongo-express:1.0.2
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017
+      ME_CONFIG_BASICAUTH: "false"
+    ports: ["8081:8081"]
+    restart: unless-stopped             # exits if Mongo isn't ready yet
+
+  influx-ui:
+    image: influxdata/influxdb3-ui:1.0.0
+    command: --mode=admin
+    environment:
+      DEFAULT_INFLUX_SERVER: http://influx:8181
+      DEFAULT_INFLUX_DATABASE: domi
+      DEFAULT_SERVER_NAME: domi
+      DEFAULT_API_TOKEN: unused         # Influx runs without auth, but Explorer wants a value
+    ports: ["8888:80"]
